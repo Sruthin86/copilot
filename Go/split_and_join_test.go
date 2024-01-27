@@ -20,7 +20,7 @@ func TestSplitAndJoinNotEqual(t *testing.T) {
 	assert.NotEqual(t, want, splitAndJoin(got, " "))
 }
 
-// Create a function to test not equal split a string and join it back together with an without underscore.
+// Create a function to test not equal split a string and join it back together without underscore.
 func TestSplitAndJoinNotEqualWithoutUnderscore(t *testing.T) {
 	want := "this is a string"
 	got := "this is a string"
@@ -30,5 +30,6 @@ func TestSplitAndJoinNotEqualWithoutUnderscore(t *testing.T) {
 // Create a function to split a string on space and join it back together with an underscore.
 
 func splitAndJoin(s string, sep string) string {
-	return strings.Join(strings.Split(s, sep), "_")
+	split := strings.Split(s, sep)
+	return strings.Join(split, "_")	
 }
