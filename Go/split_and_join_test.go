@@ -3,7 +3,6 @@ package main
 import (
 	"strings"
 	"testing"
-
 	"github.com/stretchr/testify/assert"
 )
 
@@ -13,6 +12,20 @@ func TestSplitAndJoin(t *testing.T) {
 	got := "this is a string"
 	assert.Equal(t, want, splitAndJoin(got, " "))
 }
+
+// Create a function to test not equal split a string and join it back together with an underscore.
+func TestSplitAndJoinNotEqual(t *testing.T) {
+	want := "this_is_a_string"
+	got := "this is a string"
+	assert.NotEqual(t, want, splitAndJoin(got, " "))
+}
+
+// Create a function to test not equal split a string and join it back together with an without underscore.
+func TestSplitAndJoinNotEqualWithoutUnderscore(t *testing.T) {
+	want := "this is a string"
+	got := "this is a string"
+	assert.NotEqual(t, want, splitAndJoin(got, " "))
+}	
 
 // Create a function to split a string on space and join it back together with an underscore.
 
