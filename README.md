@@ -109,6 +109,29 @@ func main() {
 
 // Create a test function to assert that the number passed is not prime.
 
+```
+- Create a function to inject chars at a position and test it
+```
+// Create a function to inject a character at a given position.
+
+// Create a test to assert that the function returns a string with a character inserted at a given position.
+
+// Create a test to assert not equal that the function returns a string with a character inserted at a given position.
 
 ```
+## Copilot on the Command Line
+- `gh` is GitHub on command line. For installation instructions for GitHub CLI, see the [GitHub CLI repository](https://github.com/cli/cli#installation).
+- Add the Copilot extension using `gh extension install github/gh-copilot`.
+- Login to your GitHub on the CLI using `gh auth login` or `gh auth login --web -h github.com`.
+- Copilot is capable of "explaning" or "suggesting" commands
+```
+ gh copilot explain "Chmod -R 777"
+
+ gh copilot explain "Chmod -R 777 /"
+
+ gh copilot explain "^foo^bar"  
+
+ gh copilot suggest "Command to find files that are grater than 1G in size"
+
+``` 
 
