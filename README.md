@@ -74,4 +74,41 @@
 
 ## GO
 
--
+- Create some basic functions in GO
+```
+// Create a function that takes two integers and returns the sum of them.
+
+// Create a function that calls the add function and prints the result from the command line.
+
+// Create a function which accepts two integer parameters from the command line and prints the sum.
+
+Refactored sample code
+
+func main() {
+	total_args := len(os.Args[1:])
+	fmt.Println("Total Args =", total_args)
+	args := os.Args
+	// Convert string to int
+	a, _ := strconv.Atoi(args[1])
+	b, _ := strconv.Atoi(args[2])
+	fmt.Println("Sum =", add(a, b))
+}
+```
+### Writing tests
+- Create a test for joining a string with an underscore
+```
+// Create a function to test split a string and join it back together with an underscore.
+
+// Create a test that tests the not equal condition for the split and join function.
+
+// Create a function to split a string on space and join it back together with an underscore.
+
+// Create a test function to test if a number is prime.
+
+// Create a function to test if a number is prime.
+
+// Create a test function to assert that the number passed is not prime.
+
+
+```
+
