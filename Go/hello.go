@@ -1,14 +1,16 @@
-// Compile: go build hello.go
+// Add a package declaration
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-// Create a function that takes two integers and returns the sum of them.
-func add(x int, y int) int {
-	return x + y
+// Create a function to add two integers and return the result.
+func add(a int, b int) int {
+	return a + b
 }
 
-// Create a main function that calls the add function and prints the result.
+// Create a function which accepts two integer parameters from the command line and prints the sum.
 func main() {
-	fmt.Println(add(42, 13))
-}
+
+

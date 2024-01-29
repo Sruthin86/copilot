@@ -2,11 +2,11 @@ package main
 
 import (
 	"testing"
-	"github.com/stretchr/testify/assert"
 
+	"github.com/stretchr/testify/assert"
 )
 
-// Create a test to asset that the function returns a string with a character inserted at a given position.
+// Create a test to assret that the function returns a string with a character inserted at a given position.
 func TestInjectChar(t *testing.T) {
 	want := "Go Green Go White"
 	got := "Go reen Go White"
