@@ -129,7 +129,9 @@ func main() {
 
  gh copilot explain "Chmod -R 777 /"
 
- gh copilot explain "^foo^bar"  
+ gh copilot explain "^foo^bar"
+
+ gh copilot explain ":(){ :|: &}; :"
 
  gh copilot suggest "Command to find files that are grater than 1G in size"
 
