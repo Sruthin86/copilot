@@ -42,7 +42,7 @@
 
 # Create a function to test the area of a triangle
 
-# # Create a test class to test the  better count larger numbers function
+# Create a test class to test the  better count larger numbers function
 
 ```
 
@@ -55,7 +55,7 @@
 ```
 - Get the titanic dataset and read the dataframe
 ```
-# Titanic data set and set the url to the location of the data
+# Assign Titanic dataset url to a variable
 
 # Read the data into a pandas dataframe
 
