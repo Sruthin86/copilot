@@ -46,7 +46,7 @@
 
 ```
 
-# Prompts in natural language to analyze large datasets using Jupyter Notebook
+## Prompts in natural language to analyze large datasets using Jupyter Notebook
 
 - Import packages that are necessary to load, process, and analyze large sets of data
 ```
