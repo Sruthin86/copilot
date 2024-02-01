@@ -11,7 +11,7 @@
 - Copilot can be installed as a [Visual Studio Plugin](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022).
 
 
-## Python
+## Prompts in natural language to generate basic functions in Python
 
 - Create some basic functions and call them from the command line.
 ```
@@ -46,7 +46,7 @@
 
 ```
 
-## Jupyter Notebook
+# Prompts in natural language to analyze large datasets using Jupyter Notebook
 
 - Import packages that are necessary to load, process, and analyze large sets of data
 ```
@@ -72,7 +72,7 @@
 # Create a visualization of the corelation between the pclass and passengers who survived and did not survive
 ```
 
-## GO
+## Prompts in natural language to generate basic functions using GO
 
 - Create some basic functions in GO
 ```
