@@ -10,6 +10,44 @@
 - Copilot's prompts can be entered in English, Chinese, French, German, Italian, Japanese, Portuguese, Spanish.
 - Copilot can be installed as a [Visual Studio Plugin](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022).
 
+## HTML
+- Create a basic HTML page
+```
+<!-- Create a basic html page-->
+```
+- Create headings and list items
+```
+<!-- Add a 2nd level heading to the page-->
+<!-- Create a list with 6 items-->
+```
+- Add images and links
+```
+<!-- Add an image of MSU Beaumount Tower -->
+<!-- Add a link to the MSU website -->
+```
+- Create a columned layout
+```
+ <!-- Create a 3 column layout for text-->
+```
+- Create forms
+```
+<!-- Create a form that accepts name, email, and phone number-->
+<!-- Create a phone number input field which accepts 10 digits in xxx-xxx-xxxx format with a placeholder xxx-xxx-xxxx -->
+<!-- Add a dropdown for Affiliation with Undergraduate, Graduate, Staff, and Faculty options -->
+```
+- Adding stylesheets
+```
+<!-- Add Bootstrap -->
+<!-- Add test.css -->
+```
+- Create responsive columns
+```
+<!-- Create a 3 column layout that switches to 1 column on mobile devices -->
+```
+- Create popup modals
+```
+<!-- Create a modal box with a button to close it-->
+```
 
 ## Python
 

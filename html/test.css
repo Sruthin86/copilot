@@ -1,0 +1,9 @@
+/* Make all the text in the body 18px */
+
+body {
+  font-size: 18px;
+}
+/* paragraphs have green text */
+p {
+  color: green;
+}
