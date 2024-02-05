@@ -1,0 +1,105 @@
+<!-- Create a basic html page-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First HTML Page</title>
+    <!-- Add Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Add test.css -->
+    <link rel="stylesheet" href="test.css">
+  </head>
+  <body>
+    <h1>Welcome to my first HTML page</h1>
+    <p>This is a paragraph</p>
+    <!-- Add a 2nd level heading to the page-->
+    <h2>My first subheading</h2>
+    <!-- Create a list with 6 items-->
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+    </ul>
+    <!-- Add an image of MSU Beaumount Tower -->
+    <img src="https://www.msu.edu/~msuaa/images/beaumont-tower.jpg" alt="MSU Beaumont Tower">
+
+    <!-- Add a link to the MSU website -->
+    <a href="https://msu.edu">Michigan State University</a>
+
+    <!-- Create a 3 column layout for text-->
+    <div style="display: flex;">
+      <div style="flex: 1;">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div style="flex: 1;">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+      <div style="flex: 1;">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      </div>
+    </div>
+      <!-- Create a form that accepts name, email, and phone number-->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br><br>
+            <!-- Create a phone number input field which accepts 10 digits in xxx-xxx-xxxx format with a placeholder xxx-xxx-xxxx -->
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="(xxx)-xxx-xxxx"><br><br>
+           
+            <!-- Add a dropdown for Affiliation with Undergraduate, Graduate, Staff, and Faculty options -->
+            <label for="affiliation">Affiliation:</label>
+            <select id="affiliation" name="affiliation">
+              <option value="undergraduate">Undergraduate</option>
+              <option value="graduate">Graduate</option>
+              <option value="staff">Staff</option>
+              <option value="faculty">Faculty</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <!-- Create a 3 column layout that switches to 1 column on mobile devices -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <p>Column 1</p>
+            </div>
+            <div class="col-sm-4">
+              <p>Column 2</p>
+            </div>
+            <div class="col-sm-4">
+              <p>Column 3</p>
+            </div>
+          </div>
+        </div>
+        <!-- Create a modal box with a button to close it-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          Open modal
+        </button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Modal Heading</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body   ">
+                Modal body..
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+                </div>
+                </div>
+                </div>
+                <!-- Add Bootstrap JS -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        
+  </body>
+</html>
