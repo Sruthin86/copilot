@@ -10,7 +10,7 @@
 - Copilot's prompts can be entered in English, Chinese, French, German, Italian, Japanese, Portuguese, Spanish.
 - Copilot can be installed as a [Visual Studio Plugin](https://learn.microsoft.com/en-us/visualstudio/ide/visual-studio-github-copilot-extension?view=vs-2022).
 
-## HTML
+## Prompts in natural language to generate HTML
 - Create a basic HTML page
 ```
 <!-- Create a basic html page-->
